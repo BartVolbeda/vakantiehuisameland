@@ -23,3 +23,4 @@ add_filter( 'x_enqueue_parent_stylesheet', '__return_true' );
 // Additional Functions
 // =============================================================================
 
+add_filter( 'woocommerce_helper_suppress_admin_notices', '__return_true' );
